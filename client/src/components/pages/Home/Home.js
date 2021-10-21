@@ -40,20 +40,19 @@ const Home = (props) => {
         p1="Learning keeps you in the lead."
         p2="Get in-demand skills to impress anyone."
       />
-
       <section className="container-fluid about">
         <Container>
           <Row className="d-flex align-items-center">
             <Col md={6}>
               <Image
                 style={{ width: '100%' }}
-                src="https://res.cloudinary.com/dodneiokm/image/upload/v1608222311/project3-ironhack/freedemt_x0s3mo.png"
+                src="https://res.cloudinary.com/e-learningnu/image/upload/v1634372882/online-tutorials-concept_52683-37480_b06gt1.jpg"
               />
             </Col>
             <Col md={6}>
               <h2 className="mb-3">About us</h2>
               <p>
-                We Are Freedemy, an on-line learning platform. We help
+                We Are eLearningIO, an on-line learning platform. We help
                 organizations of all kinds prepare for the ever-evolving future
                 of work.
               </p>

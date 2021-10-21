@@ -10,7 +10,7 @@ const Features = () => {
           <Col lg={6} md={12} style={{ textAlign: 'left' }}>
             <h2 className="mb-3">Don't waste your valuable time</h2>
             <p>
-              Only Freedemy has all the critical factors to deliver real
+              Only eLearningIO has all the critical factors to deliver real
               results.
             </p>
             <p>

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-
 const Hero = ({ title, p1, p2 }) => {
   return (
     <section className="hero ">
