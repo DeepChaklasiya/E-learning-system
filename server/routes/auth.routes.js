@@ -37,7 +37,9 @@ router.post(
       .matches(/\d/)
       .withMessage('Password must contain a number'),
 
-    // check('role').isIn(['Student', 'Teacher']).withMessage('You must choose a role')
+    // check('role')
+    //   .isIn(['Student', 'Teacher'])
+    //   .withMessage('You must choose a role'),
   ],
   (req, res) => {
     const passCheck = validationResult(req);
@@ -51,7 +53,6 @@ router.post(
 
     const salt = bcrypt.genSaltSync(bcryptSalt);
     const hashPass = bcrypt.hashSync(password, salt);
-
     User.create({ name, surname, username, password: hashPass, email, role })
       .then((newUser) =>
         req.login(newUser, (err) =>

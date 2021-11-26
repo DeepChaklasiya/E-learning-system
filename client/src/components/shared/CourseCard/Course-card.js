@@ -31,7 +31,7 @@ const CourseCard = (props) => {
             {props.title.substring(0, 35)}...
           </Card.Title>
           <Card.Text className="details  mb-2">
-            {props.category} - {props.difficultyLevel} - {props.price} € -{' '}
+            {props.category} - {props.difficultyLevel} - {props.price} ₹ -{' '}
             {props.duration} hrs.
           </Card.Text>
           <div className="d-flex justify-content-between align-items-center">
